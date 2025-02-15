@@ -6,7 +6,7 @@ A fun (and painfully accurate) train ticket predictor! Part of **Project After L
 ## 🎟️ What It Does  
 - Takes your **PNR number** (real or fake, doesn’t matter)  
 - Checks if you have **"railway connections"** 🚂  
-- Predicts your fate: **Still WL234!** 🚨  
+- Predicts your fate: **Still WL69!** 🚨  
 
 ## 🤔 Why Use It?  
 - More reliable than **Tatkal at 10:00 AM**  
