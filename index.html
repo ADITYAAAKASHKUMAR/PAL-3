@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Train Ticket Waitlist Predictor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: auto;
+        }
+        label, input, select {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .submit-btn {
+            background-color: #28a745;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .submit-btn:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Indian Train Ticket Waitlist Predictor 🚆</h2>
+        <form action="result.html" method="GET">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="pnr">PNR Number:</label>
+            <input type="text" id="pnr" name="pnr" placeholder="(Fake PNR, we don't care)" required>
+
+            <label for="train">Train Number:</label>
+            <input type="text" id="train" name="train" placeholder="Enter train number" required>
+
+            <label for="class">Class of Travel:</label>
+            <select id="class" name="class">
+                <option>Sleeper</option>
+                <option>AC 3 Tier</option>
+                <option>AC 2 Tier</option>
+                <option>General (Good Luck!)</option>
+            </select>
+
+            <label for="hope">Your Hope Level (1-10):</label>
+            <input type="number" id="hope" name="hope" min="1" max="10" placeholder="Enter your hope level">
+
+            <label>
+                <input type="checkbox" id="friend" name="friend"> Do You Have a Friend in Railways?
+            </label>
+
+            <label>
+                <input type="checkbox" id="bribe" name="bribe"> Willing to Bribe TTE? (No Judgement!)
+            </label>
+
+            <label>
+                <input type="checkbox" id="toilet" name="toilet"> Prepared to Sleep Near Toilet?
+            </label>
+
+            <button type="submit" class="submit-btn">Check My Destiny!</button>
+        </form>
+    </div>
+</body>
+</html>
